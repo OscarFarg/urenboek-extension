@@ -1,0 +1,16 @@
+{
+  "name": "Uurtjes Boeken Extension",
+  "description": "Uurtjes boek plugin, help Muriel!!",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": [
+     "activeTab",
+     "scripting"
+  ],
+  "background": {
+     "service_worker": "service_worker.js"
+  },
+  "action": {
+   "default_icon": "images/logo_urenboek.png"
+  }
+}
